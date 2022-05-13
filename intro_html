@@ -1,0 +1,109 @@
+						<!DOCTYPE html>
+<html>
+
+<head>
+	<title>exam_portal</title>
+	    <style>
+	    body{background-color:lavender;  
+             text-align: center;}
+#C {
+padding: 3px;
+background-color: lightgrey;
+color: black;    
+text-align: center;
+} 
+
+#B
+{
+padding: 50px;
+background-color: lightGreen;
+text-align: center;
+}
+</style>
+</head>
+
+<body background color>
+	<h1 id="C" >PCCOE IT Exam-Portal</h1>
+    <table><tr id="B">
+	<form >
+	    
+  <th><select>
+  <option value = "About"> About 
+  </option>
+  <option value = "faculty"> Faculty 
+  </option>
+  </select></th>
+  
+  
+  <!--label> Select Cars </label-->
+  <th><select>
+      <option value = "Courses"> Courses 
+  </option>
+  <option value = "AT"> AT 
+  </option>
+  <option value = "DSA"> DSA 
+  </option>
+  <option value = "MM"> MM
+  </option>
+  <option value = "OOPJ"> OOPJ
+  </option>
+  </select></th>
+  
+  <th><select>
+      <option value = "Exam"> Exam 
+  </option>
+  <option value = "IE1"> IE1 
+  </option>
+  <option value = "MTE"> MTE 
+  </option>
+  <option value = "IE2"> IE2
+  </option>
+  <option value = "ETE"> ETE
+  </option>
+  </select></th>
+  
+  <th><select>
+      <option value = "Scheduele"> Scheduele 
+  </option>
+  <option value = "IE1"> IE1 
+  </option>
+  <option value = "MTE"> MTE 
+  </option>
+  <option value = "IE2"> IE2
+  </option>
+  <option value = "ETE"> ETE
+  </option>
+  </select></th>
+ 
+  
+    <th><select>
+  <option value = "Result"> Result 
+  </option>
+  <option value = "IE1"> IE1 
+  </option>
+  <option value = "MTE"> MTE 
+  </option>
+  <option value = "IE2"> IE2
+  </option>
+  <option value = "ETE"> ETE
+  </option>
+  </select></th>
+   
+  <th><select>
+      <option value = "Grievances"> Grievances 
+  </option>
+  <option value = "AT"> AT 
+  </option>
+  <option value = "DSA"> DSA 
+  </option>
+  <option value = "MM"> MM
+  </option>
+  <option value = "OOPJ"> OOPJ
+  </option>
+  </select></th>
+  
+  </form>
+  </tr></table>
+  </body>
+
+</html>					
