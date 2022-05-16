@@ -1,31 +1,64 @@
-						<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
 	<title>exam_portal</title>
 	    <style>
-	    body{background-color:lavender;  
+body{
+    margin: 0%;
+    background-color:lavender;  
              text-align: center;}
+
+ .topp{
+  background-color: lavender;
+  position: relative;
+  padding-top: 10px;
+}
+
+.th{
+    font-family: 'Macondo', cursive;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+    text-align: centre;
+    position: relative;
+    bottom: 100;
+}
+         
+             
 #C {
 padding: 3px;
 background-color: lightgrey;
 color: black;    
 text-align: center;
+margin: 0 0 0  0;
+} 
+
+#A {
+padding: 3px;
+width: 100%;
+background-color: lightgrey;
+color: black;    
+text-align: center;
+margin: 0 0 2 0;
 } 
 
 #B
 {
-padding: 50px;
-background-color: lightGreen;
+padding: 10px;
+background-color: grey;
 text-align: center;
+margin: 0 0 0  0;
 }
 </style>
 </head>
-
-<body background color>
+<div class="topp">
+<body>
 	<h1 id="C" >PCCOE IT Exam-Portal</h1>
+    <h2 id="A">
     <table><tr id="B">
-	<form >
+	<form  >
 	    
   <th><select>
   <option value = "About"> About 
@@ -103,7 +136,12 @@ text-align: center;
   </select></th>
   
   </form>
-  </tr></table>
-  </body>
+  </tr></table></h2>
+
+
+  <div class="th">
+   <center> <h2>Yesterday is HISTORY, Tomorrow is MYSTRY <br> Today is a gift of GOD which is whhy we call it PRESENT</h2></center>
+ </div>
+  </body></div>
 
 </html>					
